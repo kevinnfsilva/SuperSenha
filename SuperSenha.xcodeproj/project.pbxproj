@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6106C665267BACCC00FA2FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106C664267BACCC00FA2FF0 /* AppDelegate.swift */; };
+		6106C667267BACCC00FA2FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106C666267BACCC00FA2FF0 /* SceneDelegate.swift */; };
+		6106C669267BACCC00FA2FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106C668267BACCC00FA2FF0 /* ViewController.swift */; };
+		6106C66C267BACCC00FA2FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6106C66A267BACCC00FA2FF0 /* Main.storyboard */; };
+		6106C66E267BACCF00FA2FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6106C66D267BACCF00FA2FF0 /* Assets.xcassets */; };
+		6106C671267BACCF00FA2FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6106C66F267BACCF00FA2FF0 /* LaunchScreen.storyboard */; };
+		61C3E382267CF220006182DF /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3E381267CF220006182DF /* PasswordsViewController.swift */; };
+		61C3E384267CF744006182DF /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3E383267CF744006182DF /* SecurityTipsViewController.swift */; };
+		61C3E386267CF7F7006182DF /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3E385267CF7F7006182DF /* PasswordGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6106C661267BACCC00FA2FF0 /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6106C664267BACCC00FA2FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6106C666267BACCC00FA2FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6106C668267BACCC00FA2FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6106C66B267BACCC00FA2FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6106C66D267BACCF00FA2FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6106C670267BACCF00FA2FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6106C672267BACCF00FA2FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C3E381267CF220006182DF /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		61C3E383267CF744006182DF /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		61C3E385267CF7F7006182DF /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6106C65E267BACCC00FA2FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6106C658267BACCC00FA2FF0 = {
+			isa = PBXGroup;
+			children = (
+				6106C663267BACCC00FA2FF0 /* SuperSenha */,
+				6106C662267BACCC00FA2FF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6106C662267BACCC00FA2FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6106C661267BACCC00FA2FF0 /* SuperSenha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6106C663267BACCC00FA2FF0 /* SuperSenha */ = {
+			isa = PBXGroup;
+			children = (
+				6106C664267BACCC00FA2FF0 /* AppDelegate.swift */,
+				6106C666267BACCC00FA2FF0 /* SceneDelegate.swift */,
+				6106C668267BACCC00FA2FF0 /* ViewController.swift */,
+				61C3E381267CF220006182DF /* PasswordsViewController.swift */,
+				6106C66A267BACCC00FA2FF0 /* Main.storyboard */,
+				61C3E383267CF744006182DF /* SecurityTipsViewController.swift */,
+				61C3E385267CF7F7006182DF /* PasswordGenerator.swift */,
+				6106C66D267BACCF00FA2FF0 /* Assets.xcassets */,
+				6106C66F267BACCF00FA2FF0 /* LaunchScreen.storyboard */,
+				6106C672267BACCF00FA2FF0 /* Info.plist */,
+			);
+			path = SuperSenha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6106C660267BACCC00FA2FF0 /* SuperSenha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6106C675267BACCF00FA2FF0 /* Build configuration list for PBXNativeTarget "SuperSenha" */;
+			buildPhases = (
+				6106C65D267BACCC00FA2FF0 /* Sources */,
+				6106C65E267BACCC00FA2FF0 /* Frameworks */,
+				6106C65F267BACCC00FA2FF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSenha;
+			productName = SuperSenha;
+			productReference = 6106C661267BACCC00FA2FF0 /* SuperSenha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6106C659267BACCC00FA2FF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6106C660267BACCC00FA2FF0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 6106C65C267BACCC00FA2FF0 /* Build configuration list for PBXProject "SuperSenha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6106C658267BACCC00FA2FF0;
+			productRefGroup = 6106C662267BACCC00FA2FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6106C660267BACCC00FA2FF0 /* SuperSenha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6106C65F267BACCC00FA2FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6106C671267BACCF00FA2FF0 /* LaunchScreen.storyboard in Resources */,
+				6106C66E267BACCF00FA2FF0 /* Assets.xcassets in Resources */,
+				6106C66C267BACCC00FA2FF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6106C65D267BACCC00FA2FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6106C669267BACCC00FA2FF0 /* ViewController.swift in Sources */,
+				61C3E382267CF220006182DF /* PasswordsViewController.swift in Sources */,
+				61C3E386267CF7F7006182DF /* PasswordGenerator.swift in Sources */,
+				6106C665267BACCC00FA2FF0 /* AppDelegate.swift in Sources */,
+				6106C667267BACCC00FA2FF0 /* SceneDelegate.swift in Sources */,
+				61C3E384267CF744006182DF /* SecurityTipsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6106C66A267BACCC00FA2FF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6106C66B267BACCC00FA2FF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6106C66F267BACCF00FA2FF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6106C670267BACCF00FA2FF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6106C673267BACCF00FA2FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6106C674267BACCF00FA2FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6106C676267BACCF00FA2FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFKQ35M3YC;
+				INFOPLIST_FILE = SuperSenha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.SuperSenha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6106C677267BACCF00FA2FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFKQ35M3YC;
+				INFOPLIST_FILE = SuperSenha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.SuperSenha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6106C65C267BACCC00FA2FF0 /* Build configuration list for PBXProject "SuperSenha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6106C673267BACCF00FA2FF0 /* Debug */,
+				6106C674267BACCF00FA2FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6106C675267BACCF00FA2FF0 /* Build configuration list for PBXNativeTarget "SuperSenha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6106C676267BACCF00FA2FF0 /* Debug */,
+				6106C677267BACCF00FA2FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6106C659267BACCC00FA2FF0 /* Project object */;
+}
